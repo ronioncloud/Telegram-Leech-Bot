@@ -4,8 +4,8 @@
   "keywords": [
     "telegram"
   ],
-  "repository": "https://github.com/AbirHasan2005/Telegram-Leech-Bot",
-  "success_url": "https://t.me/discovery_mirror",
+  "repository": "https://github.com/AbirHasan2005/Telegram-Leech-Bot.git",
+  "success_url": "https://github.com/AbirHasan2005/Telegram-Leech-Bot/tree/master",
   "website": "https://github.com/AbirHasan2005/Telegram-Leech-Bot",
   "env": {
     "ENV": {
