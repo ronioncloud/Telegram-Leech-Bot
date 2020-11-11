@@ -13,9 +13,9 @@ class Config(Config):
   OWNER_ID = 715779594
   RCLONE_CONFIG = """type = drive
 scope = drive
-root_folder_id = 0AMrENdA1NMleUk9PVA
-token = {"access_token":"ya29.a0AfH6SMBYe5epW_wx2ThDN0fdjhcTQVPlK8qJIGceCSvRl85ZHF-jZ7a-ZlTIK4dhHD1wf9mZT12B7KlNmqghp7vpMJ1m_ezo5lTzsTqCH0NRRzq3hub9p1GOkmdkvyyeE6I9tLmHJeBQAgXO6w4jwXLsYixp5STFP-I","token_type":"Bearer","refresh_token":"1//0grYuUY9XmmF4CgYIARAAGBASNwF-L9IrdxHmM-gUJlMuI_kkR3B1bmkctuEzvOPN1w2zIdJgLfp8IFyF_ej9cqxWzk32pDTNmDI","expiry":"2020-09-05T16:05:17.0259487+06:00"}
-team_drive = 0AMrENdA1NMleUk9PVA"""
+root_folder_id = 0AE7pdvzvClR_Uk9PVA
+token = {"access_token":"ya29.A0AfH6SMCaLwuWkNALk5I4IWBZP6y5Y4lZRkgepXoaf-LvSu2jmNDyLzezwJk-HlgcP1OSiRKqAa9qKsCBMv9O2IMd1ebAwhYdVoNP7jIXMRBDKzD10qfrzq7oGda_Z-vP3Qvl6PQcOYC3x5ecEkU3vMIyqEC2xgANsEnowpSENeU","token_type":"Bearer","refresh_token":"1//0gHp6knwySTm9CgYIARAAGBASNwF-L9IrRPO94mU1d9kBkUu1BbYrkA_EMhGXcCiHXGULiAZDg5BmaSxhrtALRfBmVpiotPEtK6Q","expiry":"2020-11-11T13:38:54.4701885+06:00"}
+team_drive = 0AE7pdvzvClR_Uk9PVA"""
   DESTINATION_FOLDER = "Trash"
   GLEECH_COMMAND = "gleech"
   TELEGRAM_LEECH_COMMAND_G = "tleech"
