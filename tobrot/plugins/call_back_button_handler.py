@@ -46,14 +46,14 @@ async def button(bot, update: CallbackQuery):
                             shutil.rmtree(file_name)
                         else:
                             os.remove(file_name)
-                    await i_m_s_e_g.edit_text(f"Leech Cancelled by <a href='tg://user?id={update.from_user.id}'>{update.from_user.first_name}</a>")
+                    await i_m_s_e_g.edit_text(f"Leech Cancelled by <a href='tg://user?id={update.from_user.id}'>{update.from_user.first_name}</a> \n\n @AbirHasan2005 Please review them!. \n")
                 except Exception as e:
                     await i_m_s_e_g.edit_text("<i>FAILED</i>\n\n" + str(e) + "\n#error")
                 else:
                     await update.message.delete()
         elif cb_data == "fuckingdo":
             if update.from_user.id in AUTH_CHANNEL:
-                g_d_list = ['app.json', 'venv', 'rclone.conf', '.gitignore', '_config.yml', 'COPYING', 'Dockerfile', 'DOWNLOADS', 'Procfile', '.heroku', '.profile.d', 'rclone.jpg', 'README.md', 'requirements.txt', 'runtime.txt', 'start.sh', 'tobrot', 'gautam', 'Torrentleech-Gdrive.txt', 'vendor']
+                g_d_list = ['app.json', 'venv', 'rclone.conf', '.gitignore', '_config.yml', 'COPYING', 'Dockerfile', 'DOWNLOADS', 'Procfile', '.heroku', '.profile.d', 'rclone.jpg', 'README.md', 'requirements.txt', 'runtime.txt', 'start.sh', 'tobrot', 'gautam', 'Torrentleech-Gdrive.log', 'vendor']
                 LOGGER.info(g_d_list)
                 g_list = os.listdir()
                 LOGGER.info(g_list)
@@ -65,11 +65,11 @@ async def button(bot, update: CallbackQuery):
                             os.remove(f)
                         else:
                             shutil.rmtree(f)
-                    await update.message.edit_text(f"Deleted {len(g_del_list)} objects 😬")
+                    await update.message.edit_text(f"Deleted {len(g_del_list)} objects 😬 \n\n @AbirHasan2005 Please review them!. \n")
                 else:
-                    await update.message.edit_text("Nothing to clear 🙄")
+                    await update.message.edit_text("Nothing to clear 🙄 \n\n @AbirHasan2005 Please review them!. \n")
             else:
-                await update.message.edit_text("You are not allowed to do that 🤭")
+                await update.message.edit_text("You are not allowed to do that !! \n\n @AbirHasan2005 Please review them!. \n")
         elif cb_data == "fuckoff":
-            await update.message.edit_text("Okay! fine 🤬")
+            await update.message.edit_text("Okay! Fine.")
 				
