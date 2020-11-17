@@ -39,7 +39,7 @@ async def help_message_f(client, message):
     #message_id = 99
     # display the /help
     
-    await message.reply_text(""" """)
+    await message.reply_text("""**Hey [{}](tg://user?id={})!!\n Please Read <a href='https://t.me/Discovery_Updates/7'>This Message</a> To know how to use Me  \n""", disable_web_page_preview=True)
  
  
 async def rename_message_f(client, message):
@@ -52,7 +52,7 @@ async def rename_message_f(client, message):
     ])
     reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
     await message.reply_text(
-        "please use @renamebot",
+        "PLEASE USE @Files_Uploader_Robot",
         quote=True,
         reply_markup=reply_markup
     )
