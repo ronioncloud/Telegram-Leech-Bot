@@ -171,7 +171,7 @@ if __name__ == "__main__" :
     #
     help_text_handler = MessageHandler(
         help_message_f,
-        filters=filters.command(["help"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["help@abir_leeching_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(help_text_handler)
     #
