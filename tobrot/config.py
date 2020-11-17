@@ -21,3 +21,5 @@ team_drive = 1rWomzK1yVjkqIbC9p9EBBKJgcf3imGr4"""
   TELEGRAM_LEECH_COMMAND_G = "tleech@abir_leeching_bot"
   PYTDL_COMMAND_G = "pytdl@abir_leeching_bot"
   MAX_TG_SPLIT_FILE_SIZE = 2097152000
+  CANCEL_COMMAND_G = "cancel@abir_leeching_bot"
+  STATUS_COMMAND = "status@abir_leeching_bot"
